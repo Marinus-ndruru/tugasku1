@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b67e368fa6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Daftar Minuman Khas Batak</title>
+</head>
+<body>
+    <!--Penjelasan: berdasarkan script di atas, Tag meta adalah tag HTML yang biasanya digunakan untuk 
+        memberikan instruksi tertentu untuk web browser dan bot.Tag ini berfungsi untuk menyuruh browser 
+        melakukan redirect ke halaman sedangkan viewport merupakan area yang dapat dilihat oleh userke
+    Dengan menggunakan tag <meta name='viewport'>, kita bisa mengatur viewport sesuai kebutuhan. 
+kalau kita perhatikan di atribut content, di sana kita menggunakan beberapa variabel untuk viewport:
+width untuk mengatur lebar halaman, jika membarikan nilai device-width maka lebar akan mengikuti ukuran lebar dari perangkat;
+initial-scale adalah variabel untuk mengatur sekala (z00m) dari halaman web.-->
+    <div class="navbar">
+        <img src="./assets/images/logo-removebg-preview.png" alt="">
+        <ul>
+            <li><a href="./index.html">Daftar Makanan</a></li>
+            <li><a href="./dring.html">Daftar Minuman</a></li>
+            <li><a href="./tentang-kami.html">Tentang Kami</a></li>
+        </ul>
+        <!--Fungsi kelas navbar digunakan untuk membuat navigation bar dengan model standart.-->
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <!--Dalam script program di atas adanya form, yang mana form
+        tersebut berfungsi untuk memberikan button search pencarian suatu -->
+    </div>
+    <div class="main">
+        <div class="content" id='dringList'>
+
+        </div>
+        <div class="sidebar" id="cartList">
+        </div>
+    </div>
+    <script src="./scrip1.js"></script>
+</body>
+</html>
